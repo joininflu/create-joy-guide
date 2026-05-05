@@ -84,11 +84,12 @@ const Home = () => {
             <p className="text-muted-foreground mb-8 max-w-xl">
               Set your brief and budget once. Join Influ auto-matches verified creators, manages outreach, escrow, posting, and purchase-level performance feedback.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3">
               <Button asChild size="xl" variant="hero">
-                <Link to="/businesses">Start Campaign <ArrowRight className="w-5 h-5" /></Link>
+                <Link to="/businesses">Start Campaign</Link>
               </Button>
-              <Button asChild size="xl" variant="soft">
+              <div className="hidden sm:block h-8 w-px bg-border" />
+              <Button asChild size="xl" variant="hero">
                 <Link to="/creators">Join as Creator</Link>
               </Button>
             </div>
