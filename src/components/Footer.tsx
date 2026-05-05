@@ -19,10 +19,8 @@ export const Footer = () => {
         <div>
           <h5 className="text-sm font-semibold mb-3">Product</h5>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li>For Brands</li>
-            <li>For Creators</li>
-            <li>AI Matching</li>
-            <li>Escrow Payments</li>
+            <li><Link to="/businesses" className="hover:text-foreground transition-smooth">For Brands</Link></li>
+            <li><Link to="/creators" className="hover:text-foreground transition-smooth">For Creators</Link></li>
           </ul>
         </div>
         <div>
